@@ -1,6 +1,6 @@
 {
     "name": "cendekia/nova-faspay-tools",
-    "description": "A Laravel Nova tool.",
+    "description": "A Faspay payment gateway tool for Laravel Nova.",
     "keywords": [
         "laravel",
         "nova"
