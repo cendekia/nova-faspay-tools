@@ -26,6 +26,10 @@ class ToolServiceProvider extends ServiceProvider
         Nova::serving(function (ServingNova $event) {
             //
         });
+
+        $this->publishes([
+            $this->configPath() => config_path('faspay.php')
+        ], 'faspay');
     }
 
     /**
@@ -51,6 +55,14 @@ class ToolServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom($this->configPath(), 'faspay');
+    }
+
+    /**
+     * @return string
+     */
+    protected function configPath(): string
+    {
+        return __DIR__.'/../config/faspay.php';
     }
 }
