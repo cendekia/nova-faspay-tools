@@ -17,6 +17,17 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 composer require cendekia/nova-faspay-tools
 ```
 
+You need to add some credentials from Faspay into `.env` file, like so:
+
+```bash
+FASPAY_RECURRING_MERCHANT_ID=xxxx
+FASPAY_RECURRING_MERCHANT_NAME=xxxxx
+FASPAY_RECURRING_CLIENT_ID=xxxxx
+FASPAY_RECURRING_PASSWORD=xxxxx
+FASPAY_RECURRING_CHECK_URL=https://xxxxxx
+
+```
+
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
 
 ```php
