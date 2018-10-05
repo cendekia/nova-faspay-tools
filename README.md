@@ -3,7 +3,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cendekia/nova-faspay-tools.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-faspay-tools)
 [![Build Status](https://img.shields.io/travis/cendekia/nova-faspay-tools/master.svg?style=flat-square)](https://travis-ci.org/cendekia/nova-faspay-tools)
-[![StyleCI](https://github.styleci.io/repos/149705913/shield?branch=master)](https://github.styleci.io/repos/149705913)
+[![StyleCI](https://github.styleci.io/repos/149547408/shield?branch=master)](https://github.styleci.io/repos/149547408)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-faspay-tools.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-faspay-tools)
 
 ![RecurringCheck](https://i.imgur.com/qr2wXyG.png)
