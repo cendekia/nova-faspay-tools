@@ -8,5 +8,10 @@ Nova.booting((Vue, router) => {
             path: '/faspay/recuring-check',
             component: require('./components/Tool'),
         },
+        {
+            name: 'faspay.recurring.form',
+            path: '/faspay/recurring-form',
+            component: require('./components/recurring/MemberDataForm'),
+        }
     ])
 })

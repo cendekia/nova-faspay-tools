@@ -16,8 +16,19 @@ class RecurringMemberController extends Controller
      */
     public function check(Request $request, $memberId)
     {
-        $memberData = $this->generateSignature($memberId)->generateXml()->execute();
+        $memberData = $this->generateSignature($memberId)
+            ->generateXml()
+            ->execute();
 
         return response()->json($memberData);
+    }
+
+    public function update(Request $request, $memberId)
+    {
+        $memberUpdate = $this->generateSignature($memberId)
+            ->generateXml('update_recurring_member')
+            ->execute();
+
+        return response()->json($memberUpdate);
     }
 }

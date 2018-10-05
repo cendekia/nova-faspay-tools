@@ -15,4 +15,9 @@
             Recurring Check
         </router-link>
     </li>
+    <li class="leading-wide mb-4 text-sm">
+        <router-link :to="{ name: 'faspay.recurring.form' }" class="text-white ml-8 no-underline dim">
+            Recurring Form
+        </router-link>
+    </li>
 </ul>

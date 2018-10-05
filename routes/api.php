@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('recurring-member/{memberId}', 'Cendekia\FaspayTools\Http\Controllers\RecurringMemberController@check');
+Route::post('update-member/{memberId}', 'Cendekia\FaspayTools\Http\Controllers\RecurringMemberController@update');
