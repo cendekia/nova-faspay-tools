@@ -25,7 +25,7 @@ FASPAY_RECURRING_MERCHANT_NAME=xxxxx
 FASPAY_RECURRING_CLIENT_ID=xxxxx
 FASPAY_RECURRING_PASSWORD=xxxxx
 FASPAY_RECURRING_CHECK_URL=https://xxxxxx
-
+FASPAY_RECURRING_MEMBER_DATA_URL=https://xxxxxx
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
@@ -48,8 +48,8 @@ public function tools()
 ## Todo :
 
 - [x] Recurring member check
-- [ ] Update recurring member data
-- [ ] TBA
+- [x] Update recurring member data
+- [ ] Setting with local data
 
 
 ## Testing
