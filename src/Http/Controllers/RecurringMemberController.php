@@ -2,8 +2,8 @@
 
 namespace Cendekia\FaspayTools\Http\Controllers;
 
-use Cendekia\FaspayTools\Traits\Faspay;
 use Illuminate\Http\Request;
+use Cendekia\FaspayTools\Traits\Faspay;
 
 class RecurringMemberController extends Controller
 {
