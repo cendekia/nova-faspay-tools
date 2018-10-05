@@ -3,15 +3,34 @@
     "description": "A Faspay payment gateway tool for Laravel Nova.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "faspay",
+        "payment gateway"
+    ],
+    "homepage": "https://github.com/cendekia/nova-faspay-tools",
+    "authors": [
+        {
+            "name": "Cendekia Pramana Putra",
+            "email": "me@cendekiapp.com",
+            "role": "Developer"
+        }
     ],
     "license": "MIT",
     "require": {
         "php": ">=7.1.0"
     },
+    "require-dev": {
+        "orchestra/testbench": "^3.6",
+        "phpunit/phpunit": "7.1"
+    },
     "autoload": {
         "psr-4": {
             "Cendekia\\FaspayTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cendekia\\FaspayTools\\Tests\\": "tests"
         }
     },
     "extra": {
