@@ -7,7 +7,8 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/cendekia/nova-faspay-tools.svg?style=flat-square)](https://scrutinizer-ci.com/g/cendekia/nova-faspay-tools)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-faspay-tools.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-faspay-tools)
 
-![Screenshot](https://i.imgur.com/GlTsvyJ.png)
+![RecurringCheck](https://i.imgur.com/qr2wXyG.png)
+![UpdateRecurringMember](https://i.imgur.com/9k9V32a.png)
 
 ## Installation
 
