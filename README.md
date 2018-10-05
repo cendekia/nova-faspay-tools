@@ -2,9 +2,8 @@
 # A tool to provide an UI access of [Faspay](https://faspay.co.id) web services
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cendekia/nova-faspay-tools.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-faspay-tools)
-![CircleCI branch](https://img.shields.io/circleci/project/github/cendekia/nova-faspay-tools/master.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/cendekia/nova-faspay-tools/master.svg?style=flat-square)](https://travis-ci.org/cendekia/nova-faspay-tools)
-[![Quality Score](https://img.shields.io/scrutinizer/g/cendekia/nova-faspay-tools.svg?style=flat-square)](https://scrutinizer-ci.com/g/cendekia/nova-faspay-tools)
+[![StyleCI](https://github.styleci.io/repos/149705913/shield?branch=master)](https://github.styleci.io/repos/149705913)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-faspay-tools.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-faspay-tools)
 
 ![RecurringCheck](https://i.imgur.com/qr2wXyG.png)
