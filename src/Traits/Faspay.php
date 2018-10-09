@@ -45,7 +45,7 @@ trait Faspay
         return $this;
     }
 
-    protected function generateXml($type = null): object
+    protected function generateXml($type = null)
     {
         switch ($type) {
             case 'update_recurring_member':
