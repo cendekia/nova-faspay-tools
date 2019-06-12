@@ -13,4 +13,10 @@ return [
     'debit' =>  [
         //
     ],
+    'notification_class' => [
+        'stop_recurring' => env('FASPAY_STOP_RECURRING_NOTIF_CLASS'),
+    ],
+    'notification_channel' => [
+        'slack' => env('SLACK_OPERATION_CHANNEL'),
+    ]
 ];
