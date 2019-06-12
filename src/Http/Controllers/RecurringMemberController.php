@@ -37,7 +37,8 @@ class RecurringMemberController extends Controller
         return response()->json($memberUpdate);
     }
 
-    private function sendUpdateRecurringStatus($data) {
+    private function sendUpdateRecurringStatus($data)
+    {
         if ($data['recurring_status'] == 0) {
             $class = config('faspay.notification_class.stop_recurring');
             Notification::route('slack', config('faspay.notification_channel.slack'))->notify(new $class($data));
