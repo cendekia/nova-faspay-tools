@@ -18,5 +18,5 @@ return [
     ],
     'notification_channel' => [
         'slack' => env('SLACK_OPERATION_CHANNEL'),
-    ]
+    ],
 ];
